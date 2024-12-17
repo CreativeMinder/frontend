@@ -1,0 +1,89 @@
+:root {
+    --red: red; /* Using standard color */
+    --gray: lightgray; /* Using standard color */
+  }
+  
+  
+  
+  .card-unique {
+    min-height: 100px;
+    margin: 10px;
+    background-color: var(--gray);
+    border: 2px solid #ff004e;
+    box-shadow: 5px 5px 10px rgba(119, 58, 58, 0.3);
+}
+
+/* Odd children: rounded top-right */
+.card-unique:nth-child(odd) {
+    border-top-right-radius: 50px;
+}
+
+/* Even children: rounded top-left */
+.card-unique:nth-child(even) {
+    border-top-left-radius: 50px;
+}
+
+/* Inside styling for even children */
+.card-unique:nth-child(even) .inside-unique {
+    height: 100px;
+    width: 100px;
+    float: right;
+    background-color: #ff004e;
+    border-radius: 50% 0 0 50%;
+}
+
+/* Inside styling for odd children */
+.card-unique:nth-child(odd) .inside-unique {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: #ff004e;
+    border-radius: 0 50% 50% 0;
+}
+
+  
+  .inside-unique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 3px 3px 5px #1a1a1a;
+  }
+  
+  .circle-unique {
+    height: 60px;
+    width: 60px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #1a1a1a;
+    color: #ff004e;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-unique {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .card-unique:nth-child(even) .text-unique {
+    float: left;
+    
+  }
+  .card-unique:nth-child(odd) .text-unique {
+    float: right;
+  }
+  
+  .header-unique {
+    font-weight: bold;
+    color: #ff004e;
+    font-size: 18px;
+  }
+  
+  .content-unique {
+    font-size: 20px;
+    color: #A0A0A0;
+  }
+  

@@ -1,0 +1,88 @@
+.UserProfile {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 0.3px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.ProfileImage {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+.updateImg {
+  border: 0.5px solid #ff004e;
+  border-radius: 5px;
+  background: white;
+  color: #ff004e;
+  margin: auto;
+  font-size: 14px;
+  width: 200px;
+  margin-top: 20px;
+  display: block;
+}
+
+.updateImg:hover {
+  background-color: #ff004e;
+  color: #fff;
+}
+
+.formOuterDiv {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  /* width: 80%; */
+}
+
+.formFields {
+  width: 50%;
+}
+
+@media (max-width: 780px) {
+  .formFields {
+    width: 100% !important;
+    margin: auto;
+  }
+}
+
+/* ----------------My Reviews---------------- */
+.MyReviews {
+  width: 80%;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 0.3px solid #d1d1d1;
+}
+.myReviewImgs img
+{
+  width: 311px;
+height: 262px;
+}
+.ProfileSectionImages
+{
+  width: 19px;
+height: 18px;
+}
+.btn-outline-review2 {
+  border-color: #ff004e;
+  background-color: #ff004e;
+  border-radius: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn-outline-review2:hover {
+  background-color: #fff;
+  border-color: #ff004e;
+  color: #ff004e!important;
+}
+

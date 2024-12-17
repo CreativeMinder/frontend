@@ -1,0 +1,264 @@
+body {
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-1 {
+  font-size: 1rem;
+}
+
+.font-2 {
+  font-size: 0.9rem;
+}
+
+.font-3 {
+  font-size: 0.75rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  font-weight: regular;
+}
+
+.opct-2 {
+  opacity: 0.8;
+}
+
+.semibold {
+  font-family: Segoe UI Semibold;
+}
+
+.bar {
+  position: fixed;
+  background: rgb(235 227 227 / 0.4);
+  backdrop-filter: blur(30px);
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 0.17rem solid #dfdada;
+  opacity: 1;
+  padding: 0 3em;
+  height: 4rem;
+}
+
+.nav-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.2rem;
+}
+
+.navcomponent-logo {
+  color: #e61616;
+  margin: 0;
+  font-size: 24px;
+}
+
+.navcomponent-logo img {
+  width: 9.3rem;
+}
+
+.nav-component .navcomponent-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+ 
+  width: 100%;
+}
+
+.navcomponent-item .nav-links {
+  margin: 0 1rem;
+  color: #484848;
+}
+
+.nav-icon {
+  margin-right: 0.5rem;
+  height: 2em;
+}
+
+.active {
+  color: #e61616 !important;
+}
+
+.btn-outline-review {
+  border-color: #e61616;
+  background-color: #e61616;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 1rem;
+  font-size: 14px;
+}
+
+.btn-outline-review:hover {
+  background-color: #fff;
+  border-color: #e61616;
+  color: #e61616 !important;
+}
+
+.btn-outline-review a:hover {
+  color: #e61616 !important;
+}
+
+.btn-outline-buisness {
+  border: 0.5px solid #efb0b0;
+  border-radius: 5px;
+  background: rgb(255 255 255 / 0.4);
+  backdrop-filter: blur(30px);
+  color: #e61616;
+  margin: 0 1rem;
+  font-size: 14px;
+}
+
+.btn-outline-buisness:hover {
+  background-color: #e61616;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.hero {
+  /* margin-bottom: 4rem; */
+  height: 65px;
+}
+/* HEADER STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.page-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header button {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  border-radius: 10px;
+  color: white;
+  background: #08a6df;
+  transition: background 0.3s;
+}
+
+.page-header button svg {
+  flex-shrink: 0;
+  margin-left: 5px;
+  fill: currentColor;
+}
+
+.page-header button:hover {
+  background: #0ab8f6;
+}
+
+/* SECTION STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+section {
+  margin: 100px 0 20px;
+}
+
+section:last-of-type {
+  margin-bottom: 100px;
+}
+
+section .text {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+section img {
+  border-radius: 15px;
+  background: whitesmoke;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* STICKY STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-header.is-sticky {
+  position: fixed;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  backdrop-filter: blur(10px);
+  animation: slideDown 0.35s ease-out;
+}
+
+.page-header.is-sticky img {
+  max-width: 80%;
+}
+
+.page-header.is-sticky button {
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1270px) {
+  .navbar-expand-lg {
+    /* display: none; */
+  }
+
+  .hero {
+    /* display: none; */
+    
+  }
+  
+  
+  
+  .btn-outline-review
+  {
+     min-width: 100px !important;
+     font-size: 11px;
+  }
+  .btn-outline-buisness
+  {
+    min-width: 120px !important;
+    font-size: 11px;
+  }
+
+  /* .color {
+    background-color: #e61616;
+  } */
+}
+
+.testsidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: left 0.3s ease-out;
+}
+
+.testsidebar.active {
+  left: 0;
+}
+
+.dropdown-menu li {
+  display: flex;
+  margin: 10px;
+}

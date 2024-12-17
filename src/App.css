@@ -1,0 +1,244 @@
+/* Custom styles for the table */
+.back {
+  background: radial-gradient(200% 188% at top, white 50%, #ff004cf3.1%) !important;
+  min-height: 90vh;
+}
+
+.chartShadow {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.custom-border {
+  border-bottom: 10px solid #ff004e;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+/* .chart-container {
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.chart-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.chart-canvas {
+  height: 200px !important;
+} */
+
+.custom-table thead {
+  background-color: #ff004e;
+  height: 50px !important;
+}
+
+.custom-table thead th {
+  padding: 0px 20px;
+  color: #fff;
+}
+
+.custom-table td {
+  padding: 0px 20px;
+}
+
+.custom-table tbody tr {
+  background-color: #FFE0E0 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.geeks {
+  border-right: hidden;
+}
+
+.students-form .input-placeholder-white ::placeholder {
+  color: white;
+}
+
+.students-form .input-placeholder-white :-ms-input-placeholder {
+  color: white;
+}
+
+.students-form .input-placeholder-white ::-ms-input-placeholder {
+  color: white;
+}
+
+.students-form .input-placeholder-white ::-webkit-input-placeholder {
+  color: white;
+}
+
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  background-color: #ff004e;
+  border-radius: 10px;
+
+}
+
+/* Add this CSS in your CSS file or within a <style> tag if using CSS-in-JS */
+
+.nav-link.active-link {
+  border-radius: 10px;
+  background-color: #ff004e;
+  /* Red background color */
+  color: white;
+  /* White text color for better visibility */
+}
+
+
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+
+.cardd {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cardd .card-block {
+  padding: 25px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.react-calendar {
+  border-radius: 16px;
+  height: 100% !important;
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+}
+
+.bg-danger,
+.btn-danger {
+  background-color: #ff004e !important;
+
+}
+
+.text-danger {
+  color: #ff004e !important;
+
+}
+
+.react-calendar__tile--active {
+  background-color: #ff004e !important;
+  color: black !important;
+
+  border-radius: 8px;
+}
+
+.react-calendar__month-view__days__day {
+  color: #ff004e;
+}
+
+.react-calendar__tile--now {
+  background-color: #ff004e !important;
+  color: black !important;
+
+  border-radius: 8px;
+}
+
+/* MyCalendar.module.css */
+.react-calendar__navigation button {
+  color: #ff004e !important;
+}
+
+.react-calendar__month-view__title {
+  color: #ff004e !important;
+}
+
+.btn-danger {
+  background-color: #ff004e !important;
+}
+
+/* src/Card.css */
+.objcard {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 300px;
+}
+
+.objcard:hover {
+  background-color: #ff004e;
+}
+
+.objcard .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.objcard .card-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.objcard .card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.objcard .card-content {
+  font-size: 14px;
+  color: #555;
+}
+
+.objcard .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.font-size {
+  font-size: 40px;
+}

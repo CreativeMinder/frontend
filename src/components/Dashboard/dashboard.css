@@ -1,0 +1,61 @@
+.red-row {
+    background-color: red !important; /* Important to override Bootstrap's default styles */
+  }
+  
+  .transparent-row {
+    background-color: transparent !important; /* Important to override Bootstrap's default styles */
+  }
+
+  .custom-scrollbar {
+    overflow-y: scroll;
+    height: 100%;
+    padding: 0;
+}
+
+/* Custom Scrollbar Styling */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #ffffff; /* Color of the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners of the thumb */
+    border: 2px solid #ffffff; /* Border around the thumb to create padding */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+    scrollbar-color: #ffffff #ffffff; /* Thumb and track color */
+    scrollbar-width: thin; /* Width of the scrollbar */
+}
+
+.overflow-scroll-outside {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 0;
+}
+
+/* Custom Scrollbar Styling */
+.overflow-scroll-outside::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.overflow-scroll-outside::-webkit-scrollbar-track {
+  background: #ffffff; /* Color of the track */
+}
+
+.overflow-scroll-outside::-webkit-scrollbar-thumb {
+  background: #ffffff; /* Color of the thumb */
+  border-radius: 10px; /* Rounded corners of the thumb */
+  border: 2px solid #ffffff; /* Border around the thumb to create padding */
+}
+
+/* For Firefox */
+.overflow-scroll-outside {
+  scrollbar-color: #ffffff #ffffff; /* Thumb and track color */
+  scrollbar-width: thin; /* Width of the scrollbar */
+}

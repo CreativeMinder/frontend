@@ -1,0 +1,130 @@
+.sidebar {
+    height: 100%;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 20px;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-header h3 {
+    color: white;
+}
+
+.list-unstyled {
+    padding-left: 0;
+}
+
+.components li {
+    padding: 10px 0;
+   
+}
+
+.components a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+.bgActiveNav
+{
+    background-color: #ff004e!important;
+}
+/* UniqueDashBoardNavbar.css */
+
+.unique-sidebar {
+  min-height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  
+  .unique-sidebar-header {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .unique-components {
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  .unique-dashboard-btns {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px 0 0 20px; /* Negative curve on the left */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  
+  .unique-dashboard-btns i
+  {
+    font-weight: bolder;
+    font-size: 20px;
+  }
+ .unique-dashboard-btns a
+ {
+    color: white !important;
+ }
+  
+  .unique-bg-active-nav {
+    background-color: #fff;
+    color: #ff004e!important;
+  }
+  
+  .unique-bg-active-nav a {
+    color: #ff004e!important;
+    text-decoration:none;
+  }
+  
+.menu > li {
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.unique-bg-active-nav::before, .unique-bg-active-nav::after {
+    content: "";
+    position: absolute;
+}
+.unique-bg-active-nav {
+    border-radius: 60px 0 0 60px;
+}
+
+
+.unique-bg-active-nav::before {
+    top: -80px;
+    right: -1px;
+    height: 80px;
+    width: 40px;
+    border-bottom-right-radius: 80px;
+    -moz-border-bottom-right-radius: 80px;
+    -webkit-border-bottom-right-radius: 80px;
+    box-shadow: 0 40px 0 0 #fff;
+}
+.unique-bg-active-nav::after {
+    top: 50px;
+    right: -1px;
+    height: 80px;
+    width: 40px;
+    border-top-right-radius: 80px;
+    -moz-border-top-right-radius: 80px;
+    -webkit-border-top-right-radius: 80px;
+    -webkit-box-shadow: 0 -40px 0 0 #fff;
+    -moz-box-shadow: 0 -40px 0 0 #fff;
+    box-shadow: 0 -40px 0 0 #fff;
+}
+.bg-danger, .btn-danger
+{
+  background-color: #ff004e!important;
+
+}
+.text-danger
+{
+  color: #ff004e!important;
+
+}
